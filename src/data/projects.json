@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "cover":"/projects/nasa-apod-project.png",
+      "title":"NASA APOD project",
+      "description":"ReactJs, HTML,TailwindCss",
+      "url":"https://alfred-nasa-apod-website.netlify.app"
+    },
+    {
+      "cover":"/projects/tic-tac-toe.png",
+      "title":"Tic Tac Toe game",
+      "description":"Java",
+      "url":"https://github.com/alfredhuang15/TicTacToe"
+    },
+    {
+      "cover":"/projects/gym-app.png",
+      "title":"NoDaysOff Workout Generator",
+      "description":"ReactJs, HTML,TailwindCss",
+      "url":"https://nodaysoff.netlify.app"
+    },
+    {
+      "cover":"/projects/todo-list.png",
+      "title":"todo-list project",
+      "description":"ReactJs, HTML,TailwindCss",
+      "url":"https://alfred-todo-list.netlify.app"
+    },
+    {
+      "cover":"/projects/amazon-website.png",
+      "title":"Amazon clone",
+      "description":"Javascript, HTML",
+      "url":"https://github.com/alfredhuang15/javascript-amazon-project"
+    },
+    {
+      "cover":"/projects/youtube-website.png",
+      "title":"Youtube clone",
+      "description":"HTML",
+      "url":"https://github.com/alfredhuang15/youtube-website"
+    },
+    {
+      "cover":"/projects/scribe.png",
+      "title":"Free Scribe",
+      "description":"ReactJs, HTML,TailwindCss",
+      "url":"https://alfred-scribe.netlify.app"
+    },
+    {
+      "cover":"/projects/flappy-bird.png",
+      "title":"Flappy Bird",
+      "description":"Unity, C#",
+      "url":"https://github.com/alfredhuang15/Flappybird"
+    }
+  ]
+}

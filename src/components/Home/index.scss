@@ -1,0 +1,145 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 83px;
+    line-height: 73px;
+    margin: 0;
+    font-family: Coolvetica;
+    font-weight: 400;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #b1ddf1;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -15px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #b1ddf1;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      display: inline;
+      vertical-align: -8px;
+      margin-left: 20px;
+      opacity: 0;
+      width: 80px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+}
+h2 {
+  color: #8d8d8d;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8 backwards;
+}
+
+.profile-container {
+  z-index: 0;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.flat-button {
+  color: #b1ddf1;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #b1ddf1;
+  margin-top: 25px;
+  float: left;
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+
+  &:hover {
+    background: #b1ddf1;
+    color: #333;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after {
+    display: none;
+  }
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 125px;
+    }
+    .profile-container {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      top: 50px;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+      left: 0;
+
+      .profile {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        overflow: visible;
+      }
+    }
+  }
+}

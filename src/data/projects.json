@@ -47,6 +47,18 @@
       "title":"Flappy Bird",
       "description":"Unity, C#",
       "url":"https://github.com/alfredhuang15/Flappybird"
+    },
+    {
+      "cover":"/projects/trading-platform.jpg",
+      "title":"Trading Platform",
+      "description":"React + Vite, Shadcn, Tailwindcss, CoinGecko API, Spring Boot, Gemini API",
+      "url":"https://github.com/alfredhuang15/Trading-Platform"
+    },
+      {
+      "cover":"/projects/heart.jpg",
+      "title":"Long Distance Website",
+      "description":"React, Tailwindcss, Firebase",
+      "url":"https://github.com/alfredhuang15/long-distance-app"
     }
   ]
 }
